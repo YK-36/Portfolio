@@ -20,7 +20,6 @@ body {
     width: 100%;
 }
 
-
 .intro {
     width: 100%;
     color: white;
@@ -58,9 +57,16 @@ nav {
 }
 
 .aboutcard{
-    background: blue;
+    background: rgb(0, 0, 0);
     margin-right: 50px;
     margin-left: 50px;
+    color: white;
+}
+
+.aboutcard img{
+    height: 200px;
+    width: 200px;
+    float: left;
 }
 
 img {
