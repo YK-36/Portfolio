@@ -114,10 +114,8 @@ h2{
 }
 
 .workcon div{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, 25vw);
     gap: 2vw;
-    padding-bottom: 10px;
+    padding-bottom: 5px;
 }
 
 .image{
@@ -129,16 +127,24 @@ h2{
     flex-direction: column;
     justify-content: center;
     cursor: pointer;
+    margin-bottom: 5vh;
 }
 
-.image:hover{
-    transform: scale(1.1);
+.image:hover img{
+    opacity: 80%;
 }
 
 .image img{
     width: 100%;
-    height: 30vh;
     border-radius: 10px 10px 0 0;
+}
+
+.image h3{
+    margin: 3vh;
+}
+
+.image div{
+    margin-top: 6vh;
 }
 
 .tools{
