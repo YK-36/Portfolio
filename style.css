@@ -298,7 +298,6 @@ section img {
 
 .infscroll div span:hover{
     opacity: 50%;
-    cursor: pointer;
 }
 
 .infscroll img{
